@@ -1,0 +1,60 @@
+/* estilo.css */
+
+/* Estilizando os itens da lista */
+.poke-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(229, 15, 15, 0.1);
+  }
+  
+  /* Cores de fundo diferentes */
+  .poke-card:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  .poke-card:nth-child(even) {
+    background-color: #fffc51;
+  }
+
+/* Estilizando o cabeçalho */
+.header {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-form button {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #2980b9;
+  }
+  
